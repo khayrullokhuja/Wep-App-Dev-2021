@@ -17,8 +17,10 @@ namespace WAD.DAL._7607.DBO
         [Display(Name = "Last Name")]
         [Required]
         public string LastName { get; set; }
+
         [Required]
         public int Age { get; set; }
+
         [Required]
         public EmpGender Gender { get; set; }
 

@@ -35,3 +35,13 @@ D:\9sem\wad\Wep-App-Dev-2021\WAD.WebApp.7607\obj\Debug\netcoreapp2.1\WAD.WebApp.
 D:\9sem\wad\Wep-App-Dev-2021\WAD.WebApp.7607\obj\Debug\netcoreapp2.1\WAD.WebApp.7607.csproj.CopyComplete
 D:\9sem\wad\Wep-App-Dev-2021\WAD.WebApp.7607\bin\Debug\netcoreapp2.1\WAD.DAL.7607.dll
 D:\9sem\wad\Wep-App-Dev-2021\WAD.WebApp.7607\bin\Debug\netcoreapp2.1\WAD.DAL.7607.pdb
+D:\9sem\wad\Wep-App-Dev-2021\WAD.WebApp.7607\obj\Debug\netcoreapp2.1\Razor\Views\Cafes\Create.cshtml.g.cs
+D:\9sem\wad\Wep-App-Dev-2021\WAD.WebApp.7607\obj\Debug\netcoreapp2.1\Razor\Views\Cafes\Delete.cshtml.g.cs
+D:\9sem\wad\Wep-App-Dev-2021\WAD.WebApp.7607\obj\Debug\netcoreapp2.1\Razor\Views\Cafes\Details.cshtml.g.cs
+D:\9sem\wad\Wep-App-Dev-2021\WAD.WebApp.7607\obj\Debug\netcoreapp2.1\Razor\Views\Cafes\Edit.cshtml.g.cs
+D:\9sem\wad\Wep-App-Dev-2021\WAD.WebApp.7607\obj\Debug\netcoreapp2.1\Razor\Views\Cafes\Index.cshtml.g.cs
+D:\9sem\wad\Wep-App-Dev-2021\WAD.WebApp.7607\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Create.cshtml.g.cs
+D:\9sem\wad\Wep-App-Dev-2021\WAD.WebApp.7607\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Delete.cshtml.g.cs
+D:\9sem\wad\Wep-App-Dev-2021\WAD.WebApp.7607\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Details.cshtml.g.cs
+D:\9sem\wad\Wep-App-Dev-2021\WAD.WebApp.7607\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Edit.cshtml.g.cs
+D:\9sem\wad\Wep-App-Dev-2021\WAD.WebApp.7607\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Index.cshtml.g.cs
