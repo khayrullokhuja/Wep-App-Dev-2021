@@ -8,10 +8,12 @@ namespace WAD.DAL._7607.DBO
 {
     public class Employee
     {
-        public int EmpId { get; set; }
+        public int EmployeeId { get; set; }
+
         [Display(Name = "First Name")]
         [Required]
         public string FirstName { get; set; }
+
         [Display(Name = "Last Name")]
         [Required]
         public string LastName { get; set; }

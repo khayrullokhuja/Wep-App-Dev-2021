@@ -1,0 +1,12 @@
+D:\9sem\wad\Wep-App-Dev-2021\WAD.DAL.7607\bin\Debug\netcoreapp2.1\WAD.DAL.7607.deps.json
+D:\9sem\wad\Wep-App-Dev-2021\WAD.DAL.7607\bin\Debug\netcoreapp2.1\WAD.DAL.7607.runtimeconfig.json
+D:\9sem\wad\Wep-App-Dev-2021\WAD.DAL.7607\bin\Debug\netcoreapp2.1\WAD.DAL.7607.runtimeconfig.dev.json
+D:\9sem\wad\Wep-App-Dev-2021\WAD.DAL.7607\bin\Debug\netcoreapp2.1\WAD.DAL.7607.dll
+D:\9sem\wad\Wep-App-Dev-2021\WAD.DAL.7607\bin\Debug\netcoreapp2.1\WAD.DAL.7607.pdb
+D:\9sem\wad\Wep-App-Dev-2021\WAD.DAL.7607\obj\Debug\netcoreapp2.1\WAD.DAL.7607.csprojAssemblyReference.cache
+D:\9sem\wad\Wep-App-Dev-2021\WAD.DAL.7607\obj\Debug\netcoreapp2.1\WAD.DAL.7607.AssemblyInfoInputs.cache
+D:\9sem\wad\Wep-App-Dev-2021\WAD.DAL.7607\obj\Debug\netcoreapp2.1\WAD.DAL.7607.AssemblyInfo.cs
+D:\9sem\wad\Wep-App-Dev-2021\WAD.DAL.7607\obj\Debug\netcoreapp2.1\WAD.DAL.7607.csproj.CoreCompileInputs.cache
+D:\9sem\wad\Wep-App-Dev-2021\WAD.DAL.7607\obj\Debug\netcoreapp2.1\WAD.DAL.7607.dll
+D:\9sem\wad\Wep-App-Dev-2021\WAD.DAL.7607\obj\Debug\netcoreapp2.1\WAD.DAL.7607.pdb
+D:\9sem\wad\Wep-App-Dev-2021\WAD.DAL.7607\obj\Debug\netcoreapp2.1\WAD.DAL.7607.genruntimeconfig.cache
