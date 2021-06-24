@@ -8,7 +8,7 @@ namespace WAD.DAL._7607.DBO
     public class Cafe
     {
         public int CafeId { get; set; }
-        [Display(Name = "Category")]
+        [Display(Name = "Branch Name")]
         [Required]
         public string CafeName { get; set; }
         [Required]

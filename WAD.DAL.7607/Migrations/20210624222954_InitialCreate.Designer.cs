@@ -9,8 +9,8 @@ using WAD.DAL._7607;
 namespace WAD.DAL._7607.Migrations
 {
     [DbContext(typeof(SocialsCafeDbContext))]
-    [Migration("20210624185755_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20210624222954_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -76,7 +76,24 @@ namespace WAD.DAL._7607.Migrations
 
                     b.HasKey("EmployeeId");
 
+                    b.HasIndex("CafeId");
+
+                    b.HasIndex("DepartmentId");
+
                     b.ToTable("Employee");
+                });
+
+            modelBuilder.Entity("WAD.DAL._7607.DBO.Employee", b =>
+                {
+                    b.HasOne("WAD.DAL._7607.DBO.Cafe", "Cafe")
+                        .WithMany()
+                        .HasForeignKey("CafeId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("WAD.DAL._7607.DBO.Department", "Department")
+                        .WithMany()
+                        .HasForeignKey("DepartmentId")
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
         }

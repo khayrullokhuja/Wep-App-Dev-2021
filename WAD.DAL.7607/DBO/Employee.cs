@@ -27,13 +27,12 @@ namespace WAD.DAL._7607.DBO
         [Display(Name = "Department")]
         public int DepartmentId { get; set; }
 
-        [NotMapped]
+        
         public Department Department { get; set; }
 
         [Display(Name = "Cafe")]
         public int CafeId { get; set; }
 
-        [NotMapped]
         public Cafe Cafe { get; set; }
 
         [Required]

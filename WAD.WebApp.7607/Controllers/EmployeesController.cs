@@ -22,7 +22,8 @@ namespace WAD.WebApp._7607.Controllers
         // GET: Employees
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Employee.ToListAsync());
+            var socialsCafeDbContext = _context.Employee.Include(e => e.Cafe).Include(e => e.Department);
+            return View(await socialsCafeDbContext.ToListAsync());
         }
 
         // GET: Employees/Details/5
@@ -34,6 +35,8 @@ namespace WAD.WebApp._7607.Controllers
             }
 
             var employee = await _context.Employee
+                .Include(e => e.Cafe)
+                .Include(e => e.Department)
                 .FirstOrDefaultAsync(m => m.EmployeeId == id);
             if (employee == null)
             {
@@ -46,6 +49,9 @@ namespace WAD.WebApp._7607.Controllers
         // GET: Employees/Create
         public IActionResult Create()
         {
+            ViewData["Gender"] = new SelectList(Enum.GetValues(typeof(EmpGender)).Cast<EmpGender>().ToList());
+            ViewData["CafeId"] = new SelectList(_context.Cafe, "CafeId", "CafeName");
+            ViewData["DepartmentId"] = new SelectList(_context.Department, "DepartmentId", "DepartmentName");
             return View();
         }
 
@@ -62,6 +68,9 @@ namespace WAD.WebApp._7607.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["Gender"] = new SelectList(Enum.GetValues(typeof(EmpGender)).Cast<EmpGender>().ToList());
+            ViewData["CafeId"] = new SelectList(_context.Cafe, "CafeId", "CafeName", employee.CafeId);
+            ViewData["DepartmentId"] = new SelectList(_context.Department, "DepartmentId", "DepartmentName", employee.DepartmentId);
             return View(employee);
         }
 
@@ -78,6 +87,9 @@ namespace WAD.WebApp._7607.Controllers
             {
                 return NotFound();
             }
+            ViewData["Gender"] = new SelectList(Enum.GetValues(typeof(EmpGender)).Cast<EmpGender>().ToList());
+            ViewData["CafeId"] = new SelectList(_context.Cafe, "CafeId", "CafeName", employee.CafeId);
+            ViewData["DepartmentId"] = new SelectList(_context.Department, "DepartmentId", "DepartmentName", employee.DepartmentId);
             return View(employee);
         }
 
@@ -113,6 +125,9 @@ namespace WAD.WebApp._7607.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["Gender"] = new SelectList(Enum.GetValues(typeof(EmpGender)).Cast<EmpGender>().ToList());
+            ViewData["CafeId"] = new SelectList(_context.Cafe, "CafeId", "CafeName", employee.CafeId);
+            ViewData["DepartmentId"] = new SelectList(_context.Department, "DepartmentId", "DepartmentName", employee.DepartmentId);
             return View(employee);
         }
 
@@ -125,6 +140,8 @@ namespace WAD.WebApp._7607.Controllers
             }
 
             var employee = await _context.Employee
+                .Include(e => e.Cafe)
+                .Include(e => e.Department)
                 .FirstOrDefaultAsync(m => m.EmployeeId == id);
             if (employee == null)
             {

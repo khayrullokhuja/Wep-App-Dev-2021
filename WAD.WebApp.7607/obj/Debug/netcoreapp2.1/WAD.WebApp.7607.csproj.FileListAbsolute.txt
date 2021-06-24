@@ -45,3 +45,8 @@ D:\9sem\wad\Wep-App-Dev-2021\WAD.WebApp.7607\obj\Debug\netcoreapp2.1\Razor\Views
 D:\9sem\wad\Wep-App-Dev-2021\WAD.WebApp.7607\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Details.cshtml.g.cs
 D:\9sem\wad\Wep-App-Dev-2021\WAD.WebApp.7607\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Edit.cshtml.g.cs
 D:\9sem\wad\Wep-App-Dev-2021\WAD.WebApp.7607\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Index.cshtml.g.cs
+D:\9sem\wad\Wep-App-Dev-2021\WAD.WebApp.7607\obj\Debug\netcoreapp2.1\Razor\Views\Employees\Create.cshtml.g.cs
+D:\9sem\wad\Wep-App-Dev-2021\WAD.WebApp.7607\obj\Debug\netcoreapp2.1\Razor\Views\Employees\Delete.cshtml.g.cs
+D:\9sem\wad\Wep-App-Dev-2021\WAD.WebApp.7607\obj\Debug\netcoreapp2.1\Razor\Views\Employees\Details.cshtml.g.cs
+D:\9sem\wad\Wep-App-Dev-2021\WAD.WebApp.7607\obj\Debug\netcoreapp2.1\Razor\Views\Employees\Edit.cshtml.g.cs
+D:\9sem\wad\Wep-App-Dev-2021\WAD.WebApp.7607\obj\Debug\netcoreapp2.1\Razor\Views\Employees\Index.cshtml.g.cs

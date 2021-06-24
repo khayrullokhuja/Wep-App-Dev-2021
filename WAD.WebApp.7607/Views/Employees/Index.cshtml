@@ -25,10 +25,10 @@
                 @Html.DisplayNameFor(model => model.Gender)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DepartmentId)
+                @Html.DisplayNameFor(model => model.Department)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.CafeId)
+                @Html.DisplayNameFor(model => model.Cafe)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Email)
@@ -52,10 +52,10 @@
                 @Html.DisplayFor(modelItem => item.Gender)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.DepartmentId)
+                @Html.DisplayFor(modelItem => item.Department.DepartmentName)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.CafeId)
+                @Html.DisplayFor(modelItem => item.Cafe.CafeName)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Email)

@@ -74,7 +74,24 @@ namespace WAD.DAL._7607.Migrations
 
                     b.HasKey("EmployeeId");
 
+                    b.HasIndex("CafeId");
+
+                    b.HasIndex("DepartmentId");
+
                     b.ToTable("Employee");
+                });
+
+            modelBuilder.Entity("WAD.DAL._7607.DBO.Employee", b =>
+                {
+                    b.HasOne("WAD.DAL._7607.DBO.Cafe", "Cafe")
+                        .WithMany()
+                        .HasForeignKey("CafeId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("WAD.DAL._7607.DBO.Department", "Department")
+                        .WithMany()
+                        .HasForeignKey("DepartmentId")
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
         }
